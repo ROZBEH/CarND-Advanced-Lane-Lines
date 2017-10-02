@@ -23,7 +23,7 @@ I. Compute the camera calibration matrix and distortion coefficients given a set
 
 * Given `mtx` and `ret` matrices, opencv `cv2.undistort` is used for getting the undisrted image. An example of the original and undistorted image is shown down here.
 
-<p align="center"><img src="examples/Distortion_.png" width = "350" alt="Combined Image" /> </p>
+<p align="center"><img src="examples/Distortion_.png" width = "800" alt="Combined Image" /> </p>
 
 </br>
 
