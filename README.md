@@ -62,6 +62,14 @@ IV. Generating "Bird Eye View" of images
 * Having a sample source and destination image can help us to get these transforms because we can pick corresponding points in source and destination images and map them together by `cv2.getPerspectiveTransform`.
 * Having a sample images we these points as our source and destination points. `src = [[581, 477],[699, 477],[896, 675],[384, 675]]` and `dst = [[384, 0],[896, 0],[896, 720],[384, 720]]`
 
+* Applying `M = cv2.getPerspectiveTransform(src, dst)` will give us transformation matrix `M`.
+
+* Finally we used the undistorted image along with opencv `cv2.warpPerspective` library and `M` in order to get the WARPED image.
+
+* The result on the previous image is shown down here.
+
+<p align="center"><img src="examples/Warped_Binary.png" width = "850" alt="Combined Image" /> </p>
+
 </br>
 
 
