@@ -118,6 +118,6 @@ VII. Warp the detected lane boundaries back onto the original image.
 
 <br>
 
-VIII.
+VIII. Putting the pipeline together for the video. The generated video file is included in this repository as `project_video_out.mp4`.
 
 </br>
