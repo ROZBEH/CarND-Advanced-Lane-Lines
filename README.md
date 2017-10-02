@@ -120,4 +120,15 @@ VII. Warp the detected lane boundaries back onto the original image.
 
 VIII. Putting the pipeline together for the video. The generated video file is included in this repository as `project_video_out.mp4`.
 
+* Video pipeline has some considerations that we did not have them for image.
+* We keep track of detected lines of the past few videos for two reason. First, this will result in fewer computation and we can start from previous frames data points. In case the lanes of the new frames are not as clear as the previous one, we can use previous frame datapoints as an estimate for the current frame until we get to a point that lane lines are clear enough.
+
+</br>
+
+<br>
+
+IV. Observations, conclusion, and further improvements
+
+* Some of my
+
 </br>
