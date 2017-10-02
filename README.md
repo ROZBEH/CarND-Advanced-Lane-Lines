@@ -40,7 +40,15 @@ II. Distortion matrices `mtx` and `ret` will be applied to all images before fur
 
 <br>
 
-III.
+III. Using color transforms, gradients, etc., to create a thresholded binary image
+
+* Open cv package `cv2.Sobel` is used in order to create Thresholded Binary Images. 
+* We used five different type of threshold that four of them are based on `cv2.Sobel` and one of them is based on color channel.
+* `cv2.Sobel` is used to apply threshold in `x`, `y`, `magnitud`, and `angles`.
+* `RGB` images are first converted to `hls` format and then `s` is used for color thresholding.
+* All of these threshold are applied to a sample image and the result will become a binary thresholded images as the following image.
+
+<p align="center"><img src="examples/Threshold_Binary.png" width = "800" alt="Combined Image" /> </p>
 
 </br>
 
