@@ -75,7 +75,19 @@ IV. Generating "Bird Eye View" of images
 
 <br>
 
-V.
+V. Detecting lane pixels and fit to find the lane boundary.
+
+* Having the warped image we can now use histogram method in order to find the lines.
+
+* Histogram method finds the region that has maximum number of non-zero pixels in the warped binary image. 
+
+* Once we have the region, we use numpy `np.polyfit` function in order to fit a second order function to the found lines.
+
+* The result for this part will be as follow. As you can see red line corresponds to the left lane and blue corresponds to the right lane.
+
+<p align="center"><img src="examples/example_boundary.png" width = "600" alt="Combined Image" /> </p>
+
+
 
 </br>
 
