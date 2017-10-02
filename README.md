@@ -48,7 +48,7 @@ III. Using color transforms, gradients, etc., to create a thresholded binary ima
 * `RGB` images are first converted to `hls` format and then `s` is used for color thresholding.
 * All of these threshold are applied to a sample image and the result will become a binary thresholded images as the following image.
 
-<p align="center"><img src="examples/Threshold_Binary.png" width = "800" alt="Combined Image" /> </p>
+<p align="center"><img src="examples/Threshold_Binary.png" width = "850" alt="Combined Image" /> </p>
 
 </br>
 
