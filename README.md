@@ -55,7 +55,12 @@ III. Using color transforms, gradients, etc., to create a thresholded binary ima
 
 <br>
 
-IV.
+IV. Generating "Bird Eye View" of images
+
+* We used perspective transform in order to change images into "Bird Eye View".
+* In order to transform images into "Bird Eye View", we first used opencv `cv2.getPerspectiveTransform` library in order to get transformation matrices.
+* Having a sample source and destination image can help us to get these transforms because we can pick corresponding points in source and destination images and map them together by `cv2.getPerspectiveTransform`.
+* Having a sample images we these points as our source and destination points. `src = [[581, 477],[699, 477],[896, 675],[384, 675]]` and `dst = [[384, 0],[896, 0],[896, 720],[384, 720]]`
 
 </br>
 
