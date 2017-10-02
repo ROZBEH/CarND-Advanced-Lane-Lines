@@ -25,6 +25,9 @@ I. Compute the camera calibration matrix and distortion coefficients given a set
 
 <p align="center"><img src="examples/Distortion_.png" width = "800" alt="Combined Image" /> </p>
 
+* Distortion matrices `mtx` and `ret` will be applied to all images before further processings.
+
+
 </br>
 
 <br>
