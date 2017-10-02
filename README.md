@@ -129,6 +129,11 @@ VIII. Putting the pipeline together for the video. The generated video file is i
 
 IV. Observations, conclusion, and further improvements
 
-* Some of my
+* In some frames the selected region is not as precise as it should be. The problem is most probably from binary images that I created. Next attempt would be to fix this. 
+
+* I am not satisfied with my perspective transoform just based on 4 points. Using more sophisticated methods could improve the results.
+
+
+* Future work could be using previously trained video files for detecting lanes instead of computer vision approach.
 
 </br>
