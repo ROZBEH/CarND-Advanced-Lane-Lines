@@ -94,7 +94,10 @@ V. Detecting lane pixels and fit to find the lane boundary.
 
 <br>
 
-VI.
+VI. In order to know how much the autonomous system has to steer the wheel it is necessary to know the curvature of the lane lines.
+
+* We used  and  `3.7/700` as `30/720` the measurement of distances in the `x` and `y` direction.
+* having these numbers and points from previous fit we can measure curvature of the lane lines.
 
 </br>
 
@@ -102,7 +105,12 @@ VI.
 
 <br>
 
-VII.
+VII. Warp the detected lane boundaries back onto the original image.
+
+* Now the we know the boundaries of the lane lines, we can warp back by using inverse of the perspective transform matrix. Again opencv `cv2.warpPerspective` for warping back the found boundary to the original image.
+
+<p align="center"><img src="examples/Example_filled.png" width = "600" alt="Combined Image" /> </p>
+
 
 </br>
 
