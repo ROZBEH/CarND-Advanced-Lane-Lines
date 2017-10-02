@@ -13,7 +13,7 @@ Pipeline
 ---
 *The pipeline along with the corresponding python codes will be described here.*
 
-*Note: I have not included the all video data in my submission, because my github repository has limited space. However, I included the output video file. *
+*Note: I have not included the all video data in my submission, because my github repository has limited space. However, I included the output video file.*
 
 <br>
 
